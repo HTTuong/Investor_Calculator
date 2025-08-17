@@ -9,5 +9,5 @@ import { AnnualData } from '../app.component';
   styleUrl: './investment-results.component.css',
 })
 export class InvestmentResultsComponent {
-  @Input() result?: AnnualData[];
+  @Input() results?: AnnualData[];
 }
